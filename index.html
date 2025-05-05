@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Calculator</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .input-table, .results-table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 20px 0;
+        }
+        .input-table th, .input-table td,
+        .results-table th, .results-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .input-table input {
+            width: 90%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        #calculate-btn {
+            padding: 10px 15px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #calculate-btn:hover {
+            background: #45a049;
+        }
+        .summary {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app-container"></div>
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>
